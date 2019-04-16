@@ -45,7 +45,7 @@ reviewGCM <- function(yr){
 
 # Load data ---------------------------------------------------------------
 lbr <- raster::getData(name = 'GADM', country = 'LBR', level = 0)
-cod <- raster::getData(name = 'GADM', country = 'LBR', level = 0)
+cod <- raster::getData(name = 'GADM', country = 'COD', level = 0)
 srr <- raster::getData(name = 'GADM', country = 'SLE', level = 0)
 
 adm <- rbind(lbr, cod, srr)
